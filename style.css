@@ -1,14 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(247, 244, 240);
+    font-family: 'Courier New', Courier, monospace;
+}
 .board {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     display: grid;
-    border: 2px black solid;
+    border: 3px black solid;
+    margin-bottom: 20px;
+    background-color: white;
 }
 .board > div{
     transition: background-color 30s;
 }
 
+.buttons > * {
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
 .board > div:hover {
     background-color: darkcyan;
     transition: background-color;
+}
+
+input {
+    font-size: large;
+    border: 2px black solid;
+    margin-bottom: 10px;
+}
+button {
+    font-size: medium;
 }
