@@ -2,7 +2,13 @@
     width: 500px;
     height: 500px;
     display: grid;
+    border: 2px black solid;
 }
 .board > div{
-    border: 1px black solid;
+    transition: background-color 30s;
+}
+
+.board > div:hover {
+    background-color: darkcyan;
+    transition: background-color;
 }

@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>etch a sketch</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class ="flex-container">
-            <div class="title"><h1>Sketch Pad</h1></div>
-            <div class ="content">
-                <div class="board"></div>
-                <div class="buttons">
-                    <button>black</button>
-                    <button>white</button>
-                    <button>random</button>
-                    <button>reset</button>
-                </div>
-                <input id ="value" type="text" placeholder="size of board" value="16">
-                <button id="set-size">set size</button>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>etch a sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="title">
+            <h1>Sketch Pad</h1>
         </div>
-        <script src="script.js"></script>
-    </body>
+        <div class="content">
+            <div class="board"></div>
+            <div class="buttons">
+                <button id="black">black</button>
+                <button id="white">white</button>
+                <button id="red">red</button>
+                <button>random</button>
+                <button id="reset">reset</button>
+            </div>
+                <input id="value" type="text" placeholder="size of board" value="16">
+                <button id="set-size">set size</button>
+            <div>
+                <input id="colorText" type="text" placeholder="manually select color" value="black">
+                <button id="colorButton">set color</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
