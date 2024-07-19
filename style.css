@@ -1,0 +1,8 @@
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
+.board > div{
+    border: 1px black solid;
+}
